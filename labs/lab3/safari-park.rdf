@@ -1,0 +1,872 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park/"
+     xml:base="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:safari-park="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLObjectProperty_23ac180a_8089_4e7c_8ac5_4405c74e9dc9 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLObjectProperty_23ac180a_8089_4e7c_8ac5_4405c74e9dc9">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLClass_1d91455e_a165_4a07_af86_abd902cfc425"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLClass_8ececed8_fc61_4a94_95a3_877519e0cb2c"/>
+        <rdfs:label xml:lang="en">works_at_cafe</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLObjectProperty_33d5b95c_caf7_49fb_b764_fc0f71e72e40 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLObjectProperty_33d5b95c_caf7_49fb_b764_fc0f71e72e40">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLClass_1d91455e_a165_4a07_af86_abd902cfc425"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLClass_250dccab_0133_4e20_bde9_39df383e681b"/>
+        <rdfs:label xml:lang="en">works_at_souvenir_shop</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLObjectProperty_80175ea3_85a5_450d_9361_00b92e41f024 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLObjectProperty_80175ea3_85a5_450d_9361_00b92e41f024">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLClass_eb059df9_9cb3_4fb4_925f_2ad5ae218d71"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLClass_192099f6_0605_4a7d_9b35_9d30b3298851"/>
+        <rdfs:label xml:lang="en">has_diet</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLObjectProperty_9c9a1de9_5fd4_4fc7_8333_0c2f878844c8 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLObjectProperty_9c9a1de9_5fd4_4fc7_8333_0c2f878844c8">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLClass_1d91455e_a165_4a07_af86_abd902cfc425"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLClass_ca72e07a_34e1_46a2_a31e_860e390a9b8b"/>
+        <rdfs:label xml:lang="en">heals</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLObjectProperty_9e2a3dcd_4701_46db_bf73_311a12733fff -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLObjectProperty_9e2a3dcd_4701_46db_bf73_311a12733fff">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLClass_dd4b35ad_29cc_4b92_b2d9_6acefef46f69"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLClass_9cbe58b5_e581_4cb2_8ce4_fa831889ab3c"/>
+        <rdfs:label xml:lang="en">is_using</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLObjectProperty_de6d59dd_44ab_432e_b1db_c7fa5bd90cd1 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLObjectProperty_de6d59dd_44ab_432e_b1db_c7fa5bd90cd1">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLClass_eb059df9_9cb3_4fb4_925f_2ad5ae218d71"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLClass_c5e2dbad_4dc5_4aff_bd8b_ec3aae1730ab"/>
+        <rdfs:label xml:lang="en">has_habitat</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLDataProperty_27890051_8044_4bd0_ad21_140bc908238e -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLDataProperty_27890051_8044_4bd0_ad21_140bc908238e">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLClass_eb059df9_9cb3_4fb4_925f_2ad5ae218d71"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+        <rdfs:label xml:lang="en">has_lifespan</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLDataProperty_3cd826b8_be23_4be5_88cb_00378d5bddc4 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLDataProperty_3cd826b8_be23_4be5_88cb_00378d5bddc4">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLClass_eb059df9_9cb3_4fb4_925f_2ad5ae218d71"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:label xml:lang="en">has_conservation_status</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLDataProperty_5bf19de6_4402_4f1f_96e8_533ee65d37ca -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLDataProperty_5bf19de6_4402_4f1f_96e8_533ee65d37ca">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLClass_9cbe58b5_e581_4cb2_8ce4_fa831889ab3c"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rdfs:label xml:lang="en">has_ticket_price</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLDataProperty_74ed17b7_d6ed_493f_b39a_843d923505d4 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLDataProperty_74ed17b7_d6ed_493f_b39a_843d923505d4">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLClass_1d91455e_a165_4a07_af86_abd902cfc425"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rdfs:label xml:lang="en">has_salary</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLDataProperty_fce2d34a_9e8c_4d74_b496_3dee938825e2 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLDataProperty_fce2d34a_9e8c_4d74_b496_3dee938825e2">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLClass_642ca8aa_bcf4_452b_bf44_1ad348c21dba"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:label xml:lang="en">has_age</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLClass_0ef8f783_6b82_4bff_992a_059a86c3d739 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLClass_0ef8f783_6b82_4bff_992a_059a86c3d739">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLClass_192099f6_0605_4a7d_9b35_9d30b3298851"/>
+        <rdfs:label xml:lang="en">Herbivore</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLClass_192099f6_0605_4a7d_9b35_9d30b3298851 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLClass_192099f6_0605_4a7d_9b35_9d30b3298851">
+        <rdfs:label xml:lang="en">Diet</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLClass_1af9a957_89b5_43ce_896f_30fcf0c035f3 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLClass_1af9a957_89b5_43ce_896f_30fcf0c035f3">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLClass_eb059df9_9cb3_4fb4_925f_2ad5ae218d71"/>
+        <rdfs:label xml:lang="en">Amphibian</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLClass_1d91455e_a165_4a07_af86_abd902cfc425 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLClass_1d91455e_a165_4a07_af86_abd902cfc425">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLClass_642ca8aa_bcf4_452b_bf44_1ad348c21dba"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLClass_dd4b35ad_29cc_4b92_b2d9_6acefef46f69"/>
+        <rdfs:label xml:lang="en">Staff</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLClass_250dccab_0133_4e20_bde9_39df383e681b -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLClass_250dccab_0133_4e20_bde9_39df383e681b">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLClass_f253ff45_3a12_4b23_8c6f_456100b0145b"/>
+        <rdfs:label xml:lang="en">Souvenir_shop</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLClass_2cc9820f_2240_44fc_aee9_6adb590df64a -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLClass_2cc9820f_2240_44fc_aee9_6adb590df64a">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLClass_192099f6_0605_4a7d_9b35_9d30b3298851"/>
+        <rdfs:label xml:lang="en">Carnivore</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLClass_3119a1ea_d76f_420e_bce7_cd699867fe1b -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLClass_3119a1ea_d76f_420e_bce7_cd699867fe1b">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLClass_9cbe58b5_e581_4cb2_8ce4_fa831889ab3c"/>
+        <rdfs:label xml:lang="en">Exhibit</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLClass_3c4395c9_9480_4554_bbb1_b5c360cb5f3b -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLClass_3c4395c9_9480_4554_bbb1_b5c360cb5f3b">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLClass_c5e2dbad_4dc5_4aff_bd8b_ec3aae1730ab"/>
+        <rdfs:label xml:lang="en">Desert</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLClass_3e482864_bbaa_423a_ac0d_79996df77df4 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLClass_3e482864_bbaa_423a_ac0d_79996df77df4">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLClass_192099f6_0605_4a7d_9b35_9d30b3298851"/>
+        <rdfs:label xml:lang="en">Omnivore</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLClass_582385dd_fc41_467b_8dd4_b42e275d9ce5 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLClass_582385dd_fc41_467b_8dd4_b42e275d9ce5">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLClass_c5e2dbad_4dc5_4aff_bd8b_ec3aae1730ab"/>
+        <rdfs:label xml:lang="en">Rainforest</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLClass_642ca8aa_bcf4_452b_bf44_1ad348c21dba -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLClass_642ca8aa_bcf4_452b_bf44_1ad348c21dba">
+        <rdfs:label xml:lang="en">Person</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLClass_812f06c7_1e54_43dc_a45c_df4deb0c40db -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLClass_812f06c7_1e54_43dc_a45c_df4deb0c40db">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLClass_c5e2dbad_4dc5_4aff_bd8b_ec3aae1730ab"/>
+        <rdfs:label xml:lang="en">Wetland</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLClass_8ececed8_fc61_4a94_95a3_877519e0cb2c -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLClass_8ececed8_fc61_4a94_95a3_877519e0cb2c">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLClass_f253ff45_3a12_4b23_8c6f_456100b0145b"/>
+        <rdfs:label xml:lang="en">Cafe</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLClass_8fa59427_1a75_41c1_9319_f421ade39672 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLClass_8fa59427_1a75_41c1_9319_f421ade39672">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLClass_eb059df9_9cb3_4fb4_925f_2ad5ae218d71"/>
+        <rdfs:label xml:lang="en">Reptile</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLClass_9cbe58b5_e581_4cb2_8ce4_fa831889ab3c -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLClass_9cbe58b5_e581_4cb2_8ce4_fa831889ab3c">
+        <rdfs:label xml:lang="en">SafariParkFeature</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLClass_c286b246_bdb2_406e_88bf_e1ce08b100ab -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLClass_c286b246_bdb2_406e_88bf_e1ce08b100ab">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLClass_9cbe58b5_e581_4cb2_8ce4_fa831889ab3c"/>
+        <rdfs:label xml:lang="en">Activity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLClass_c5e2dbad_4dc5_4aff_bd8b_ec3aae1730ab -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLClass_c5e2dbad_4dc5_4aff_bd8b_ec3aae1730ab">
+        <rdfs:label xml:lang="en">Habitat</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLClass_ca72e07a_34e1_46a2_a31e_860e390a9b8b -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLClass_ca72e07a_34e1_46a2_a31e_860e390a9b8b">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLClass_eb059df9_9cb3_4fb4_925f_2ad5ae218d71"/>
+        <rdfs:label xml:lang="en">Bird</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLClass_cc507373_4afa_4863_b451_a3e0db3e7d65 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLClass_cc507373_4afa_4863_b451_a3e0db3e7d65">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLClass_eb059df9_9cb3_4fb4_925f_2ad5ae218d71"/>
+        <rdfs:label xml:lang="en">Mammal</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLClass_dd4b35ad_29cc_4b92_b2d9_6acefef46f69 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLClass_dd4b35ad_29cc_4b92_b2d9_6acefef46f69">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLClass_642ca8aa_bcf4_452b_bf44_1ad348c21dba"/>
+        <rdfs:label xml:lang="en">Visitor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLClass_eb059df9_9cb3_4fb4_925f_2ad5ae218d71 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLClass_eb059df9_9cb3_4fb4_925f_2ad5ae218d71">
+        <rdfs:label xml:lang="en">Animal</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLClass_ebebe3c9_e75c_49ae_970f_a69bde9bfb6f -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLClass_ebebe3c9_e75c_49ae_970f_a69bde9bfb6f">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLClass_c5e2dbad_4dc5_4aff_bd8b_ec3aae1730ab"/>
+        <rdfs:label xml:lang="en">Savanna</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLClass_f253ff45_3a12_4b23_8c6f_456100b0145b -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLClass_f253ff45_3a12_4b23_8c6f_456100b0145b">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLClass_9cbe58b5_e581_4cb2_8ce4_fa831889ab3c"/>
+        <rdfs:label xml:lang="en">Facility</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLClass_f6ef8dd0_2e86_4ed8_8eed_a487fc8a2705 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLClass_f6ef8dd0_2e86_4ed8_8eed_a487fc8a2705">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLClass_f253ff45_3a12_4b23_8c6f_456100b0145b"/>
+        <rdfs:label xml:lang="en">Restroom</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLNamedIndividual_031ca5a8_9f22_4159_8b07_094a03f7f7a6 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLNamedIndividual_031ca5a8_9f22_4159_8b07_094a03f7f7a6">
+        <rdf:type rdf:resource="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLClass_c286b246_bdb2_406e_88bf_e1ce08b100ab"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLNamedIndividual_9592ff94_97bc_4a38_b293_48742daca84a"/>
+        <safari-park:OWLDataProperty_5bf19de6_4402_4f1f_96e8_533ee65d37ca rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.0</safari-park:OWLDataProperty_5bf19de6_4402_4f1f_96e8_533ee65d37ca>
+        <rdfs:label xml:lang="en">Guided_tour</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLNamedIndividual_9592ff94_97bc_4a38_b293_48742daca84a -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLNamedIndividual_9592ff94_97bc_4a38_b293_48742daca84a"/>
+    
+
+
+    <!-- http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLNamedIndividual_140a6c49_591b_4e0b_9b3a_7ebc7bf6c118 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLNamedIndividual_140a6c49_591b_4e0b_9b3a_7ebc7bf6c118">
+        <rdf:type rdf:resource="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLClass_2cc9820f_2240_44fc_aee9_6adb590df64a"/>
+        <rdfs:label xml:lang="en">Meat_diet</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLNamedIndividual_17a3cdc3_8379_4b4f_8677_f5f03a277c37 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLNamedIndividual_17a3cdc3_8379_4b4f_8677_f5f03a277c37">
+        <rdf:type rdf:resource="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLClass_1d91455e_a165_4a07_af86_abd902cfc425"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLNamedIndividual_19fc8cb1_b74e_4c54_a85a_18153d80bd33"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLNamedIndividual_6c75f708_ea20_4180_84b0_a70d6768806b"/>
+        <safari-park:OWLDataProperty_74ed17b7_d6ed_493f_b39a_843d923505d4 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">250000.0</safari-park:OWLDataProperty_74ed17b7_d6ed_493f_b39a_843d923505d4>
+        <safari-park:OWLDataProperty_fce2d34a_9e8c_4d74_b496_3dee938825e2 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">27</safari-park:OWLDataProperty_fce2d34a_9e8c_4d74_b496_3dee938825e2>
+        <rdfs:label xml:lang="en">Zookeeper</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLNamedIndividual_19fc8cb1_b74e_4c54_a85a_18153d80bd33 -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLNamedIndividual_19fc8cb1_b74e_4c54_a85a_18153d80bd33"/>
+    
+
+
+    <!-- http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLNamedIndividual_6c75f708_ea20_4180_84b0_a70d6768806b -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLNamedIndividual_6c75f708_ea20_4180_84b0_a70d6768806b"/>
+    
+
+
+    <!-- http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLNamedIndividual_19fc8cb1_b74e_4c54_a85a_18153d80bd33 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLNamedIndividual_19fc8cb1_b74e_4c54_a85a_18153d80bd33">
+        <rdf:type rdf:resource="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLClass_1d91455e_a165_4a07_af86_abd902cfc425"/>
+        <safari-park:OWLDataProperty_74ed17b7_d6ed_493f_b39a_843d923505d4 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">95000.0</safari-park:OWLDataProperty_74ed17b7_d6ed_493f_b39a_843d923505d4>
+        <safari-park:OWLDataProperty_fce2d34a_9e8c_4d74_b496_3dee938825e2 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">38</safari-park:OWLDataProperty_fce2d34a_9e8c_4d74_b496_3dee938825e2>
+        <rdfs:label xml:lang="en">Guide</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLNamedIndividual_1aff7016_f491_4726_8e39_f5418b876c22 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLNamedIndividual_1aff7016_f491_4726_8e39_f5418b876c22">
+        <rdf:type rdf:resource="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLClass_3119a1ea_d76f_420e_bce7_cd699867fe1b"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLNamedIndividual_57ec6a01_8b55_4d70_8562_1ee15b0424c0"/>
+        <safari-park:OWLDataProperty_5bf19de6_4402_4f1f_96e8_533ee65d37ca rdf:datatype="http://www.w3.org/2001/XMLSchema#float">29.99</safari-park:OWLDataProperty_5bf19de6_4402_4f1f_96e8_533ee65d37ca>
+        <rdfs:label xml:lang="en">Bird_aviary</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLNamedIndividual_57ec6a01_8b55_4d70_8562_1ee15b0424c0 -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLNamedIndividual_57ec6a01_8b55_4d70_8562_1ee15b0424c0"/>
+    
+
+
+    <!-- http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLNamedIndividual_1b023ee5_e4fd_4093_9e54_cfce01914667 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLNamedIndividual_1b023ee5_e4fd_4093_9e54_cfce01914667">
+        <rdf:type rdf:resource="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLClass_812f06c7_1e54_43dc_a45c_df4deb0c40db"/>
+        <rdfs:label xml:lang="en">Swamp</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLNamedIndividual_213cbdd2_5abb_4193_942a_6c45fa6baa40 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLNamedIndividual_213cbdd2_5abb_4193_942a_6c45fa6baa40">
+        <rdf:type rdf:resource="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLClass_250dccab_0133_4e20_bde9_39df383e681b"/>
+        <rdfs:label xml:lang="en">Souvenir_shop_main</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLNamedIndividual_274b6834_95ca_44d6_89d5_9a2f4328dac1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLNamedIndividual_274b6834_95ca_44d6_89d5_9a2f4328dac1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLClass_dd4b35ad_29cc_4b92_b2d9_6acefef46f69"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLNamedIndividual_3e5ea25f_66b6_4e4b_a616_f9848df45cdf"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLNamedIndividual_f2f40f1a_4937_4e20_a62f_49b360fe8628"/>
+        <safari-park:OWLObjectProperty_9e2a3dcd_4701_46db_bf73_311a12733fff rdf:resource="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLNamedIndividual_ff9dda20_9569_475d_8757_629a674aa6ba"/>
+        <safari-park:OWLDataProperty_fce2d34a_9e8c_4d74_b496_3dee938825e2 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30</safari-park:OWLDataProperty_fce2d34a_9e8c_4d74_b496_3dee938825e2>
+        <rdfs:label xml:lang="en">VisitorB</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLNamedIndividual_3e5ea25f_66b6_4e4b_a616_f9848df45cdf -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLNamedIndividual_3e5ea25f_66b6_4e4b_a616_f9848df45cdf"/>
+    
+
+
+    <!-- http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLNamedIndividual_f2f40f1a_4937_4e20_a62f_49b360fe8628 -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLNamedIndividual_f2f40f1a_4937_4e20_a62f_49b360fe8628"/>
+    
+
+
+    <!-- http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLNamedIndividual_3617aebb_6531_4966_a76d_17f410164119 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLNamedIndividual_3617aebb_6531_4966_a76d_17f410164119">
+        <rdf:type rdf:resource="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLClass_1af9a957_89b5_43ce_896f_30fcf0c035f3"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLNamedIndividual_9ce7829d_db48_465b_8a44_df815cc32f3f"/>
+        <safari-park:OWLObjectProperty_80175ea3_85a5_450d_9361_00b92e41f024 rdf:resource="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLNamedIndividual_140a6c49_591b_4e0b_9b3a_7ebc7bf6c118"/>
+        <safari-park:OWLObjectProperty_de6d59dd_44ab_432e_b1db_c7fa5bd90cd1 rdf:resource="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLNamedIndividual_d335e505_c0d1_4a22_88a3_0322f2443b8f"/>
+        <safari-park:OWLDataProperty_27890051_8044_4bd0_ad21_140bc908238e rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</safari-park:OWLDataProperty_27890051_8044_4bd0_ad21_140bc908238e>
+        <safari-park:OWLDataProperty_3cd826b8_be23_4be5_88cb_00378d5bddc4 rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</safari-park:OWLDataProperty_3cd826b8_be23_4be5_88cb_00378d5bddc4>
+        <rdfs:label xml:lang="en">Salamander</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLNamedIndividual_9ce7829d_db48_465b_8a44_df815cc32f3f -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLNamedIndividual_9ce7829d_db48_465b_8a44_df815cc32f3f"/>
+    
+
+
+    <!-- http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLNamedIndividual_3e5ea25f_66b6_4e4b_a616_f9848df45cdf -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLNamedIndividual_3e5ea25f_66b6_4e4b_a616_f9848df45cdf">
+        <rdf:type rdf:resource="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLClass_dd4b35ad_29cc_4b92_b2d9_6acefef46f69"/>
+        <safari-park:OWLObjectProperty_9e2a3dcd_4701_46db_bf73_311a12733fff rdf:resource="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLNamedIndividual_9592ff94_97bc_4a38_b293_48742daca84a"/>
+        <safari-park:OWLDataProperty_fce2d34a_9e8c_4d74_b496_3dee938825e2 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22</safari-park:OWLDataProperty_fce2d34a_9e8c_4d74_b496_3dee938825e2>
+        <rdfs:label xml:lang="en">VisitorA</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLNamedIndividual_4d268844_ff96_48fe_8a23_176c63e5c2fe -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLNamedIndividual_4d268844_ff96_48fe_8a23_176c63e5c2fe">
+        <rdf:type rdf:resource="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLClass_ca72e07a_34e1_46a2_a31e_860e390a9b8b"/>
+        <safari-park:OWLObjectProperty_80175ea3_85a5_450d_9361_00b92e41f024 rdf:resource="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLNamedIndividual_140a6c49_591b_4e0b_9b3a_7ebc7bf6c118"/>
+        <safari-park:OWLObjectProperty_de6d59dd_44ab_432e_b1db_c7fa5bd90cd1 rdf:resource="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLNamedIndividual_799b58c2_0edf_40ae_ad0f_373157813c5d"/>
+        <safari-park:OWLObjectProperty_de6d59dd_44ab_432e_b1db_c7fa5bd90cd1 rdf:resource="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLNamedIndividual_d335e505_c0d1_4a22_88a3_0322f2443b8f"/>
+        <safari-park:OWLDataProperty_27890051_8044_4bd0_ad21_140bc908238e rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</safari-park:OWLDataProperty_27890051_8044_4bd0_ad21_140bc908238e>
+        <safari-park:OWLDataProperty_3cd826b8_be23_4be5_88cb_00378d5bddc4 rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</safari-park:OWLDataProperty_3cd826b8_be23_4be5_88cb_00378d5bddc4>
+        <rdfs:label xml:lang="en">Eagle</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLNamedIndividual_57ec6a01_8b55_4d70_8562_1ee15b0424c0 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLNamedIndividual_57ec6a01_8b55_4d70_8562_1ee15b0424c0">
+        <rdf:type rdf:resource="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLClass_3119a1ea_d76f_420e_bce7_cd699867fe1b"/>
+        <safari-park:OWLDataProperty_5bf19de6_4402_4f1f_96e8_533ee65d37ca rdf:datatype="http://www.w3.org/2001/XMLSchema#float">30.0</safari-park:OWLDataProperty_5bf19de6_4402_4f1f_96e8_533ee65d37ca>
+        <rdfs:label xml:lang="en">Lion_enclosure</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLNamedIndividual_5ed735b0_858b_4436_bd42_5a04566b0978 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLNamedIndividual_5ed735b0_858b_4436_bd42_5a04566b0978">
+        <rdf:type rdf:resource="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLClass_8fa59427_1a75_41c1_9319_f421ade39672"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLNamedIndividual_d6f9d7b3_9bb1_410c_a0c5_001a181514d3"/>
+        <safari-park:OWLObjectProperty_80175ea3_85a5_450d_9361_00b92e41f024 rdf:resource="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLNamedIndividual_140a6c49_591b_4e0b_9b3a_7ebc7bf6c118"/>
+        <safari-park:OWLObjectProperty_de6d59dd_44ab_432e_b1db_c7fa5bd90cd1 rdf:resource="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLNamedIndividual_1b023ee5_e4fd_4093_9e54_cfce01914667"/>
+        <safari-park:OWLDataProperty_27890051_8044_4bd0_ad21_140bc908238e rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">25</safari-park:OWLDataProperty_27890051_8044_4bd0_ad21_140bc908238e>
+        <safari-park:OWLDataProperty_3cd826b8_be23_4be5_88cb_00378d5bddc4 rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</safari-park:OWLDataProperty_3cd826b8_be23_4be5_88cb_00378d5bddc4>
+        <rdfs:label xml:lang="en">Python</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLNamedIndividual_d6f9d7b3_9bb1_410c_a0c5_001a181514d3 -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLNamedIndividual_d6f9d7b3_9bb1_410c_a0c5_001a181514d3"/>
+    
+
+
+    <!-- http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLNamedIndividual_617f776d_d0f0_42fd_8c88_0fe881ae8065 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLNamedIndividual_617f776d_d0f0_42fd_8c88_0fe881ae8065">
+        <rdf:type rdf:resource="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLClass_cc507373_4afa_4863_b451_a3e0db3e7d65"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLNamedIndividual_71a5990f_1284_4067_a55f_bcacaac4ec5b"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLNamedIndividual_edce8771_05ee_4597_9228_58f3473c44ee"/>
+        <safari-park:OWLObjectProperty_80175ea3_85a5_450d_9361_00b92e41f024 rdf:resource="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLNamedIndividual_140a6c49_591b_4e0b_9b3a_7ebc7bf6c118"/>
+        <safari-park:OWLDataProperty_27890051_8044_4bd0_ad21_140bc908238e rdf:datatype="http://www.w3.org/2001/XMLSchema#int">16</safari-park:OWLDataProperty_27890051_8044_4bd0_ad21_140bc908238e>
+        <safari-park:OWLDataProperty_3cd826b8_be23_4be5_88cb_00378d5bddc4 rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</safari-park:OWLDataProperty_3cd826b8_be23_4be5_88cb_00378d5bddc4>
+        <rdfs:label xml:lang="en">Lion</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLNamedIndividual_71a5990f_1284_4067_a55f_bcacaac4ec5b -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLNamedIndividual_71a5990f_1284_4067_a55f_bcacaac4ec5b"/>
+    
+
+
+    <!-- http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLNamedIndividual_edce8771_05ee_4597_9228_58f3473c44ee -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLNamedIndividual_edce8771_05ee_4597_9228_58f3473c44ee"/>
+    
+
+
+    <!-- http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLNamedIndividual_6c75f708_ea20_4180_84b0_a70d6768806b -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLNamedIndividual_6c75f708_ea20_4180_84b0_a70d6768806b">
+        <rdf:type rdf:resource="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLClass_1d91455e_a165_4a07_af86_abd902cfc425"/>
+        <safari-park:OWLObjectProperty_9c9a1de9_5fd4_4fc7_8333_0c2f878844c8 rdf:resource="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLNamedIndividual_e1c12ed1_fb72_47d0_af10_ca4edb0b686b"/>
+        <safari-park:OWLDataProperty_74ed17b7_d6ed_493f_b39a_843d923505d4 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">350000.0</safari-park:OWLDataProperty_74ed17b7_d6ed_493f_b39a_843d923505d4>
+        <safari-park:OWLDataProperty_fce2d34a_9e8c_4d74_b496_3dee938825e2 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">33</safari-park:OWLDataProperty_fce2d34a_9e8c_4d74_b496_3dee938825e2>
+        <rdfs:label xml:lang="en">Veterinarian</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLNamedIndividual_71a5990f_1284_4067_a55f_bcacaac4ec5b -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLNamedIndividual_71a5990f_1284_4067_a55f_bcacaac4ec5b">
+        <rdf:type rdf:resource="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLClass_cc507373_4afa_4863_b451_a3e0db3e7d65"/>
+        <safari-park:OWLObjectProperty_80175ea3_85a5_450d_9361_00b92e41f024 rdf:resource="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLNamedIndividual_b93fb4ce_a074_46f9_b358_da91887020e8"/>
+        <safari-park:OWLObjectProperty_de6d59dd_44ab_432e_b1db_c7fa5bd90cd1 rdf:resource="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLNamedIndividual_adec75af_d9fc_4679_aa42_f39443578d6c"/>
+        <safari-park:OWLObjectProperty_de6d59dd_44ab_432e_b1db_c7fa5bd90cd1 rdf:resource="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLNamedIndividual_ddd2a2d2_bb90_4d5e_afb5_597dcadcfd9d"/>
+        <safari-park:OWLDataProperty_27890051_8044_4bd0_ad21_140bc908238e rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">70</safari-park:OWLDataProperty_27890051_8044_4bd0_ad21_140bc908238e>
+        <safari-park:OWLDataProperty_3cd826b8_be23_4be5_88cb_00378d5bddc4 rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</safari-park:OWLDataProperty_3cd826b8_be23_4be5_88cb_00378d5bddc4>
+        <rdfs:label xml:lang="en">Elephant</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLNamedIndividual_738ff355_75a4_4983_8dd3_add77da50854 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLNamedIndividual_738ff355_75a4_4983_8dd3_add77da50854">
+        <rdf:type rdf:resource="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLClass_f6ef8dd0_2e86_4ed8_8eed_a487fc8a2705"/>
+        <safari-park:OWLDataProperty_5bf19de6_4402_4f1f_96e8_533ee65d37ca rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.49</safari-park:OWLDataProperty_5bf19de6_4402_4f1f_96e8_533ee65d37ca>
+        <rdfs:label xml:lang="en">RestroomA</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLNamedIndividual_799b58c2_0edf_40ae_ad0f_373157813c5d -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLNamedIndividual_799b58c2_0edf_40ae_ad0f_373157813c5d">
+        <rdf:type rdf:resource="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLClass_3c4395c9_9480_4554_bbb1_b5c360cb5f3b"/>
+        <rdfs:label xml:lang="en">Rocky_outcrop</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLNamedIndividual_79cfe7df_5b77_4ece_ab0f_1f8af0f96e7d -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLNamedIndividual_79cfe7df_5b77_4ece_ab0f_1f8af0f96e7d">
+        <rdf:type rdf:resource="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLClass_3c4395c9_9480_4554_bbb1_b5c360cb5f3b"/>
+        <rdfs:label xml:lang="en">Sandy_terrain</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLNamedIndividual_9592ff94_97bc_4a38_b293_48742daca84a -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLNamedIndividual_9592ff94_97bc_4a38_b293_48742daca84a">
+        <rdf:type rdf:resource="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLClass_c286b246_bdb2_406e_88bf_e1ce08b100ab"/>
+        <safari-park:OWLDataProperty_5bf19de6_4402_4f1f_96e8_533ee65d37ca rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.0</safari-park:OWLDataProperty_5bf19de6_4402_4f1f_96e8_533ee65d37ca>
+        <rdfs:label xml:lang="en">Feeding_experience</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLNamedIndividual_9ce7829d_db48_465b_8a44_df815cc32f3f -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLNamedIndividual_9ce7829d_db48_465b_8a44_df815cc32f3f">
+        <rdf:type rdf:resource="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLClass_1af9a957_89b5_43ce_896f_30fcf0c035f3"/>
+        <safari-park:OWLObjectProperty_80175ea3_85a5_450d_9361_00b92e41f024 rdf:resource="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLNamedIndividual_140a6c49_591b_4e0b_9b3a_7ebc7bf6c118"/>
+        <safari-park:OWLObjectProperty_de6d59dd_44ab_432e_b1db_c7fa5bd90cd1 rdf:resource="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLNamedIndividual_d335e505_c0d1_4a22_88a3_0322f2443b8f"/>
+        <safari-park:OWLDataProperty_27890051_8044_4bd0_ad21_140bc908238e rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</safari-park:OWLDataProperty_27890051_8044_4bd0_ad21_140bc908238e>
+        <safari-park:OWLDataProperty_3cd826b8_be23_4be5_88cb_00378d5bddc4 rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</safari-park:OWLDataProperty_3cd826b8_be23_4be5_88cb_00378d5bddc4>
+        <rdfs:label xml:lang="en">Frog</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLNamedIndividual_adec75af_d9fc_4679_aa42_f39443578d6c -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLNamedIndividual_adec75af_d9fc_4679_aa42_f39443578d6c">
+        <rdf:type rdf:resource="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLClass_ebebe3c9_e75c_49ae_970f_a69bde9bfb6f"/>
+        <rdfs:label xml:lang="en">Open_field</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLNamedIndividual_b93fb4ce_a074_46f9_b358_da91887020e8 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLNamedIndividual_b93fb4ce_a074_46f9_b358_da91887020e8">
+        <rdf:type rdf:resource="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLClass_0ef8f783_6b82_4bff_992a_059a86c3d739"/>
+        <rdfs:label xml:lang="en">Plant_diet</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLNamedIndividual_d335e505_c0d1_4a22_88a3_0322f2443b8f -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLNamedIndividual_d335e505_c0d1_4a22_88a3_0322f2443b8f">
+        <rdf:type rdf:resource="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLClass_582385dd_fc41_467b_8dd4_b42e275d9ce5"/>
+        <rdfs:label xml:lang="en">Tropical_forest</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLNamedIndividual_d6f9d7b3_9bb1_410c_a0c5_001a181514d3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLNamedIndividual_d6f9d7b3_9bb1_410c_a0c5_001a181514d3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLClass_8fa59427_1a75_41c1_9319_f421ade39672"/>
+        <safari-park:OWLObjectProperty_80175ea3_85a5_450d_9361_00b92e41f024 rdf:resource="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLNamedIndividual_140a6c49_591b_4e0b_9b3a_7ebc7bf6c118"/>
+        <safari-park:OWLObjectProperty_de6d59dd_44ab_432e_b1db_c7fa5bd90cd1 rdf:resource="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLNamedIndividual_1b023ee5_e4fd_4093_9e54_cfce01914667"/>
+        <safari-park:OWLDataProperty_27890051_8044_4bd0_ad21_140bc908238e rdf:datatype="http://www.w3.org/2001/XMLSchema#int">70</safari-park:OWLDataProperty_27890051_8044_4bd0_ad21_140bc908238e>
+        <safari-park:OWLDataProperty_3cd826b8_be23_4be5_88cb_00378d5bddc4 rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</safari-park:OWLDataProperty_3cd826b8_be23_4be5_88cb_00378d5bddc4>
+        <rdfs:label xml:lang="en">Crocodile</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLNamedIndividual_ddd2a2d2_bb90_4d5e_afb5_597dcadcfd9d -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLNamedIndividual_ddd2a2d2_bb90_4d5e_afb5_597dcadcfd9d">
+        <rdf:type rdf:resource="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLClass_ebebe3c9_e75c_49ae_970f_a69bde9bfb6f"/>
+        <rdfs:label xml:lang="en">Grassland</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLNamedIndividual_e1c12ed1_fb72_47d0_af10_ca4edb0b686b -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLNamedIndividual_e1c12ed1_fb72_47d0_af10_ca4edb0b686b">
+        <rdf:type rdf:resource="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLClass_ca72e07a_34e1_46a2_a31e_860e390a9b8b"/>
+        <safari-park:OWLObjectProperty_de6d59dd_44ab_432e_b1db_c7fa5bd90cd1 rdf:resource="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLNamedIndividual_ddd2a2d2_bb90_4d5e_afb5_597dcadcfd9d"/>
+        <safari-park:OWLDataProperty_27890051_8044_4bd0_ad21_140bc908238e rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30</safari-park:OWLDataProperty_27890051_8044_4bd0_ad21_140bc908238e>
+        <safari-park:OWLDataProperty_3cd826b8_be23_4be5_88cb_00378d5bddc4 rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</safari-park:OWLDataProperty_3cd826b8_be23_4be5_88cb_00378d5bddc4>
+        <rdfs:label xml:lang="en">Flamingo</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLNamedIndividual_edc4c301_8d5a_486a_8f77_2e435a18238f -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLNamedIndividual_edc4c301_8d5a_486a_8f77_2e435a18238f">
+        <rdf:type rdf:resource="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLClass_1d91455e_a165_4a07_af86_abd902cfc425"/>
+        <safari-park:OWLObjectProperty_33d5b95c_caf7_49fb_b764_fc0f71e72e40 rdf:resource="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLNamedIndividual_213cbdd2_5abb_4193_942a_6c45fa6baa40"/>
+        <safari-park:OWLDataProperty_74ed17b7_d6ed_493f_b39a_843d923505d4 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">900000.0</safari-park:OWLDataProperty_74ed17b7_d6ed_493f_b39a_843d923505d4>
+        <safari-park:OWLDataProperty_fce2d34a_9e8c_4d74_b496_3dee938825e2 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">59</safari-park:OWLDataProperty_fce2d34a_9e8c_4d74_b496_3dee938825e2>
+        <rdfs:label xml:lang="en">shopkeeper</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLNamedIndividual_edce8771_05ee_4597_9228_58f3473c44ee -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLNamedIndividual_edce8771_05ee_4597_9228_58f3473c44ee">
+        <rdf:type rdf:resource="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLClass_cc507373_4afa_4863_b451_a3e0db3e7d65"/>
+        <safari-park:OWLObjectProperty_80175ea3_85a5_450d_9361_00b92e41f024 rdf:resource="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLNamedIndividual_b93fb4ce_a074_46f9_b358_da91887020e8"/>
+        <safari-park:OWLDataProperty_27890051_8044_4bd0_ad21_140bc908238e rdf:datatype="http://www.w3.org/2001/XMLSchema#int">20</safari-park:OWLDataProperty_27890051_8044_4bd0_ad21_140bc908238e>
+        <safari-park:OWLDataProperty_3cd826b8_be23_4be5_88cb_00378d5bddc4 rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</safari-park:OWLDataProperty_3cd826b8_be23_4be5_88cb_00378d5bddc4>
+        <rdfs:label xml:lang="en">Zebra</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLNamedIndividual_ef489a42_855b_464f_acdd_62bcc1a9bef9 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLNamedIndividual_ef489a42_855b_464f_acdd_62bcc1a9bef9">
+        <rdf:type rdf:resource="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLClass_812f06c7_1e54_43dc_a45c_df4deb0c40db"/>
+        <rdfs:label xml:lang="en">Marsh</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLNamedIndividual_f2f40f1a_4937_4e20_a62f_49b360fe8628 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLNamedIndividual_f2f40f1a_4937_4e20_a62f_49b360fe8628">
+        <rdf:type rdf:resource="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLClass_dd4b35ad_29cc_4b92_b2d9_6acefef46f69"/>
+        <safari-park:OWLObjectProperty_9e2a3dcd_4701_46db_bf73_311a12733fff rdf:resource="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLNamedIndividual_738ff355_75a4_4983_8dd3_add77da50854"/>
+        <safari-park:OWLDataProperty_fce2d34a_9e8c_4d74_b496_3dee938825e2 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">45</safari-park:OWLDataProperty_fce2d34a_9e8c_4d74_b496_3dee938825e2>
+        <rdfs:label xml:lang="en">VisitorC</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLNamedIndividual_f7ba2fc5_eefc_47aa_a93a_4cc0376098b6 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLNamedIndividual_f7ba2fc5_eefc_47aa_a93a_4cc0376098b6">
+        <rdf:type rdf:resource="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLClass_1d91455e_a165_4a07_af86_abd902cfc425"/>
+        <safari-park:OWLObjectProperty_23ac180a_8089_4e7c_8ac5_4405c74e9dc9 rdf:resource="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLNamedIndividual_ff9dda20_9569_475d_8757_629a674aa6ba"/>
+        <safari-park:OWLDataProperty_74ed17b7_d6ed_493f_b39a_843d923505d4 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">150000.0</safari-park:OWLDataProperty_74ed17b7_d6ed_493f_b39a_843d923505d4>
+        <safari-park:OWLDataProperty_fce2d34a_9e8c_4d74_b496_3dee938825e2 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">37</safari-park:OWLDataProperty_fce2d34a_9e8c_4d74_b496_3dee938825e2>
+        <rdfs:label xml:lang="en">Chef</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLNamedIndividual_fe2fb1c4_392a_4371_9115_b59e42c7469a -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLNamedIndividual_fe2fb1c4_392a_4371_9115_b59e42c7469a">
+        <rdf:type rdf:resource="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLClass_3e482864_bbaa_423a_ac0d_79996df77df4"/>
+        <rdfs:label xml:lang="en">Mixed_diet</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLNamedIndividual_ff9dda20_9569_475d_8757_629a674aa6ba -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLNamedIndividual_ff9dda20_9569_475d_8757_629a674aa6ba">
+        <rdf:type rdf:resource="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLClass_8ececed8_fc61_4a94_95a3_877519e0cb2c"/>
+        <rdfs:label xml:lang="en">Luna</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLClass_0ef8f783_6b82_4bff_992a_059a86c3d739"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLClass_2cc9820f_2240_44fc_aee9_6adb590df64a"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLClass_3e482864_bbaa_423a_ac0d_79996df77df4"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLClass_192099f6_0605_4a7d_9b35_9d30b3298851"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLClass_642ca8aa_bcf4_452b_bf44_1ad348c21dba"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLClass_9cbe58b5_e581_4cb2_8ce4_fa831889ab3c"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLClass_c5e2dbad_4dc5_4aff_bd8b_ec3aae1730ab"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLClass_eb059df9_9cb3_4fb4_925f_2ad5ae218d71"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLClass_1af9a957_89b5_43ce_896f_30fcf0c035f3"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLClass_8fa59427_1a75_41c1_9319_f421ade39672"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLClass_ca72e07a_34e1_46a2_a31e_860e390a9b8b"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLClass_cc507373_4afa_4863_b451_a3e0db3e7d65"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLClass_3119a1ea_d76f_420e_bce7_cd699867fe1b"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLClass_c286b246_bdb2_406e_88bf_e1ce08b100ab"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLClass_f253ff45_3a12_4b23_8c6f_456100b0145b"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLClass_3c4395c9_9480_4554_bbb1_b5c360cb5f3b"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLClass_582385dd_fc41_467b_8dd4_b42e275d9ce5"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLClass_812f06c7_1e54_43dc_a45c_df4deb0c40db"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/moham/ontologies/2024/11/safari-park#OWLClass_ebebe3c9_e75c_49ae_970f_a69bde9bfb6f"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
